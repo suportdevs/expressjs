@@ -13,7 +13,7 @@ admin.get('/dashboard', (req, res) => {
 app.use('/admin', admin);
 
 app.all('/user/:id', (req, res, next) => {
-    console.dir(req.cookies);
+    console.log(req.get('accept'));
     res.send(`About by ${req.method} method`);
 })
 
