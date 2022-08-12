@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/suportdevs/expressjs#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8"
   }
 }
